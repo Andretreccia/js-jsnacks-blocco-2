@@ -26,9 +26,8 @@ let squadre = [
 
 for (i = 0; i < squadre.length; i++) {
     let squadra = squadre[i]
-
-    squadra[i.puntiFatti].push = Math.floor(Math.random() * 100) + 1;
-    squadra[i.falliSubiti].push = Math.floor(Math.random() * 100) + 1;
+    squadra.puntiFatti = Math.floor(Math.random() * 100) + 1;
+    squadra.falliSubiti = Math.floor(Math.random() * 100) + 1;
 
     console.log(squadra)
 }
